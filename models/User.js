@@ -12,10 +12,11 @@ const userSchema = new Schema(
       type: String,
       unique: true,
       require: true,
-      match: [
-        /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-        'Please fill a valid email address',
-      ],
+      // match: [
+      //   /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+      //   'Please fill a valid email address',
+      // ],
+      
     },
     thoughts: [
       {
@@ -40,7 +41,9 @@ const userSchema = new Schema(
 
 userSchema
   .virtual('friendCount')
-  .get(() => this.friends.length)
+  .get(function () {
+    return this.friends.length
+  })
   .set((v) => {
     this.set(v)
   })
