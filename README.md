@@ -170,12 +170,8 @@ This Challenge is graded based on the following criteria:
 You are required to submit BOTH of the following for review:
 * A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-Here are some pictures!
-![Screenshot1](https://i.postimg.cc/RFFHdtX0/image.png)
-![Screenshot2](https://i.postimg.cc/FHVpnjgb/image.png)
----
-[YT Video](https://youtu.be/lv4dGIoILTc)
-[Social Network API Repo!](https://github.com/Lizandro21/socialnetwork-api)
+[YT Video](https://watch.screencastify.com/v/PVbGtr6qz8UzR7u59QSp)
+[Social Network API Repo!](https://github.com/Bam28/socialnetwork-api)
 This is the link to the video!
 ---
 ## Contributors
